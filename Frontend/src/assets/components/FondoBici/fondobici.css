@@ -1,0 +1,31 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-size: contain; /* Ajusta la imagen de fondo para que quepa dentro del contenedor */
+  background-repeat: no-repeat; /* Evita que la imagen de fondo se repita */
+  background-position: center; /* Centra la imagen de fondo */
+}
+
+/**catalogo**/
+.imagen_bici {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin: 0;
+  padding: 0;
+}
+
+.texto-superpuesto {
+  position: absolute;
+  top: auto;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: rgb(255, 255, 255);
+  font-size: 5vw;
+  /* Tamaño de fuente relativo al ancho del viewport */
+  font-weight: bold;
+  text-align: center;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  height: 30vw;
+  max-height: 100%;
+}
