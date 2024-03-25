@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Contenedor principal */
+  
+
+  /* Footer */
+  
+  #fondo {
+    padding: 20px;
+    width: 100%;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    position: fixed;
+    bottom: 0;
+    margin-top: auto;
+  }
+  
+   /* Estilos específicos para el contenido del footer */
+  
+   .txtinfoSitio, .txAyuda, .txtContactanos {
+    flex-direction: column;
+  }
+  
+  .icoFooter {
+    width: 100px;
+    height: 100px;
+  }
+  
+  .iconoContacto {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+  }
+
+  .linkCorreo, .linkNosotros {
+    color: white;
+    text-decoration: none;
+  }
+  
+  /* Media queries para diferentes tamaños de pantalla */
+  
+  @media (max-width: 750px) {
+    /* Ajustes específicos para pantallas pequeñas */
+  }
+  
+  @media (max-width: 850px) {
+    /* Ajustes específicos para pantallas medianas */
+  }

@@ -1,0 +1,50 @@
+.contenedor2 {
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+  }
+  
+  .cuadro {
+    width: 200px;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.3);
+    background-color: rgb(231, 231, 231);
+    height: 640px;
+  }
+  
+  .filtros {
+    padding: 20px;
+  }
+  
+  .filtros h3 {
+    margin-bottom: 10px;
+  }
+  
+  .filtros ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .filtros ul li {
+    margin-bottom: 5px;
+  }
+  
+  .filtros input {
+    margin-right: 5px;
+  }
+  
+  .precio-rango {
+    display: flex;
+    align-items: center;
+  }
+  
+  .precio-rango input {
+    width: 50px;
+    margin: 0 5px;
+  }
+  
+  .catalogo {
+    width: calc(55vw - 40px);
+    /* Ajustar el ancho del catálogo según sea necesario */
+  }
